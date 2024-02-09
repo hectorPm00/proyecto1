@@ -1,0 +1,47 @@
+import React from 'react';
+
+function SprintPlanningTable() {
+    return (
+        <div>
+            <h2>Tabla de Trabajo Pendiente</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID de Historia</th>
+                        <th>Elemento de Trabajo Pendiente</th>
+                        <th>Puntos de Historia</th>
+                        <th>Responsable</th>
+                        <th>Estado</th>
+                        <th>Estimado Original</th>
+                        <th>Día 1</th>
+                        <th>Día 2</th>
+                        <th>Día 3</th>
+                        <th>Día 4</th>
+                        <th>Día 5</th>
+                        <th>Revisión del Sprint</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ID de la historia #1</td>
+                        <td>Definición de color</td>
+                        <td>1</td>
+                        <td>Hector Ponce</td>
+                        <td>Finalizado</td>
+                        <td>Unas horas</td>
+                        <td>No finalizado, no se presentó el cliente</td>
+                        <td>Finalizada</td>
+                        <td>N/A</td>
+                        <td>2 días</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    {/* Agregar las demás filas siguiendo el mismo formato */}
+                    {/* Puedes usar un bucle para generar las filas si los datos están en una estructura adecuada */}
+                </tbody>
+            </table>
+        </div>
+    );
+}
+
+export default SprintPlanningTable;
